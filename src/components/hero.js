@@ -26,28 +26,27 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+    <h1 style={{ textAlign: "center" }}>Local drive</h1>
+    <p style={{ textAlign: "center", maxWidth: 440, background: "#ffffffd1" }}>
+      Que vous teniez un stand sur un marché ou un commerce de proximité, offrez un service de drive à vos clients en quelques clics.
     </p>
-    <Button>Get Early Access</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        />
-      </div>
+    <Button href={'https://seller.local-drive.shop/signIn'}>Je commence mon essai gratuit</Button>
+    <div style={{ margin: 60, position: "relative" }}>
+      {/*<div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>*/}
+          <iframe src="https://drive.google.com/file/d/1wdIOeTX9XV-AifXQa71SmQWG6TZ0_Acs/preview" width="800" height="480"></iframe>
+      {/*</div>*/}
+      {/*<div*/}
+        {/*style={{*/}
+          {/*position: "absolute",*/}
+          {/*width: "250px",*/}
+          {/*top: 0,*/}
+        {/*}}*/}
+      {/*>*/}
+        {/*<img*/}
+          {/*src={mockupFrame}*/}
+          {/*alt="outlines of shapes and confetti in the background "*/}
+        {/*/>*/}
+      {/*</div>*/}
     </div>
   </div>
 )

@@ -6,10 +6,10 @@ import SectionHeader from "./section-header"
 const CallToAction = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Stay Updated"
-      description="Give a final call to action because that's what the cool kids are doing."
+      title="Essayez Local drive"
+      description="Profitez de 15 jours d'essai gratuit, puis du tarif réduit 'premiers utilisateurs' à 19.90€ par mois. (pas de carte bancaire demandée)"
     />
-    <Button>Get Early Access</Button>
+    <Button href={'https://seller.local-drive.shop/signIn'}>Je commence mon essai gratuit</Button>
   </div>
 )
 
